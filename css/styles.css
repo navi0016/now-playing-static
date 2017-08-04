@@ -195,3 +195,47 @@ figure {
 .about > p {
   margin: 0;
 }
+
+/*Browser window wider than 768px*/
+
+@media (min-width:768px) {
+
+nav.site-nav {
+    float: left;
+    width: 4rem;
+    height: 100%;
+    bottom: inherit;
+    right: inherit;
+    padding-top: 3rem;
+}
+
+ul.site-nav-item {
+display: inline-block;
+}
+
+li.site-nav-item {
+  float: inherit;
+}
+
+.site-logo {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 150;
+  top:inherit;
+  left: inherit;
+  width: 12%%;
+
+}
+.site-header {
+  width: 80px;
+}
+
+img.site-logo-image {
+    width: 50%;
+}
+.movie {
+  left: 4rem;
+  width: 100%
+}
+}
