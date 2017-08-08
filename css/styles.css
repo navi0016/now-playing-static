@@ -264,7 +264,6 @@ figure {
       max-height: 52px;
     }
 
-    }
     .about {
       background-color: black;
     }
@@ -281,3 +280,32 @@ figure {
     }
 
   }
+
+  @media (min-width:992px) {
+
+  main{
+  padding-left: 4rem;
+    }
+
+  .movie-details {
+    padding-left: 1rem;
+  }
+
+  .movie:first-child {
+    padding: 0;
+  }
+
+  .movie:nth-child(1n+2) {
+  width: 33.33%;
+  float: left;
+  padding-left: 0;
+  }
+
+  .movie:nth-child(1n+2) .movie-overview{
+  display: none;
+  }
+
+  footer.site-footer {
+    float: left;
+  }
+}
